@@ -1,0 +1,244 @@
+.navbar {
+    height: 10vh;
+    width:65%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.container{
+    /* height: 90vh; */
+    width: 100%;
+    background-color: rgba(173, 216, 230, 0.3);
+    display: flex;    
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.container .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 80%;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.container .date .editor{
+    font-weight: bold;
+}
+
+.container .date .date-specify{
+    font-weight: bold;
+}
+
+.container .date .date-button1 {
+    background: none;
+    border: none;
+}
+
+.container .date .date-button2 {
+    background: none;
+    border: none;
+}
+.container #my-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#my-form{
+    width: 80%;
+    opacity: 1;
+}
+
+#my-form .container2 .form-label {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.container #my-form .container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;    
+}
+
+.container #my-form .btn {
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease;
+}
+
+.container #my-form .btn:hover {
+    transform: scale(1.2);
+}
+
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.navbar-brand-profile{
+    margin-right: 20px;
+}
+
+.pushups{
+    width: 75%;
+    justify-content: center;
+}
+
+
+
+#my-form .container2 .form-control{
+    border: 2px solid #a3cfbb;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+} 
+
+#my-form .container2 .form-control2{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgrey;
+    width: 80%;
+    border-radius: 5px;
+    height: 35px;
+}
+
+#my-form .container2 .option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#my-form .container2 .option .deleteButton {
+    background: none;
+    border: none;
+}
+
+#my-form .container2 .option .form-select {
+    border: 1px solid black;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+}
+
+.navbar-brand-profile img {
+    width: 80%; 
+    padding: 0;
+    max-width: 40px; 
+    height: auto;
+    object-fit: contain; 
+  }
+
+/* ................................................ */
+
+@media (max-width: 575.98px) {
+    .navbar {
+      justify-content: center;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .navbar-nav{
+        flex-direction: row;        
+        font-size: 40px;
+        width: 80%;
+    }
+    
+    #my-form {
+        width: 100%;
+    }
+
+    .container .date {
+        display: flex;
+        justify-content: space-between;
+        height: 20px;
+        width: 100%;
+        align-items:last baseline
+        
+        padding-top: 5px;
+    }
+
+    .container .date .date-button1 {
+        padding-top: 5px;
+    }
+
+    .container .date .date-button2 {
+        padding-top: 5px;
+    }
+
+    .container #my-form .container2{
+        width: 100%;
+        font-size: 12px;
+        
+    }
+
+    .container #my-form #inputText {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    #my-form .container2 .form-label {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    #my-form .container2 .form-control{
+        border: 2px solid lightgray;
+        width: 30%;
+        height: 30px;
+    }
+    #my-form .container2 .form-control2{
+        border: 2px solid lightgray;
+        width: 80%;
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    
+    
+    .nav-link{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .nav-item{                
+        margin-right: 6px;
+    }
+    .container{
+        width: 100%; 
+    }
+    .navbar-brand-profile{
+        margin-right: 0;
+    }
+
+}
+
